@@ -1,0 +1,55 @@
+/* Background & Global Styles */
+.stApp {
+    background-color: #040E15; 
+    background: radial-gradient(circle, #051622 0%, #040E15 100%);
+    color: #00FFFF; 
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* System Container */
+.login-container {
+    background: rgba(4, 14, 21, 0.85);
+    backdrop-filter: blur(10px);
+    border: 2px solid #1C39BB;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0 0 20px #1C39BB, inset 0 0 15px #1C39BB;
+}
+
+/* Input Fields */
+.stTextInput input {
+    background-color: #051622 !important;
+    color: #00FFFF !important;
+    border: 1px solid #1C39BB !important;
+    box-shadow: 0 0 8px #1C39BB;
+}
+
+/* Persian Blue Glowing Button */
+.stButton > button {
+    background: transparent !important;
+    color: #1C39BB !important;
+    border: 2px solid #1C39BB !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 15px #1C39BB !important;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.stButton > button:hover {
+    background: #1C39BB !important;
+    color: white !important;
+    box-shadow: 0 0 30px #1C39BB, 0 0 50px #1C39BB !important;
+}
+
+/* Table & Metric Glow */
+[data-testid="stMetricValue"] {
+    color: #00FFFF !important;
+    text-shadow: 0 0 10px #1C39BB;
+}
+
+.stDataFrame {
+    border: 1px solid #1C39BB;
+    box-shadow: 0 0 10px #1C39BB;
+}
